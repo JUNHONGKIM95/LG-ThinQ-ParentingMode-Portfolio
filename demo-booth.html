@@ -897,7 +897,14 @@
       display: inline-block;
       padding: 6px 21px;
       border-radius: 30px;
-      margin-bottom: 21px;
+      margin-bottom: 10px;
+    }
+    .team-mbti {
+      font-size: 17px;
+      font-weight: 700;
+      color: #FFD36E;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
     }
     .team-desc {
       font-size: 20px;
@@ -965,7 +972,7 @@
 
       <!-- LEFT -->
       <div class="left">
-        <div class="team-badge" onclick="location.href='index.html'">
+        <div class="team-badge" onclick="location.href='demo-intro.html'">
           <span class="dot"></span>
           LG DX School 4기 &middot; 2반 4팀 Last Dance
         </div>
@@ -1286,30 +1293,35 @@
             <div class="team-avatar"><img src="html_asset/team/PM.png" alt="PM"></div>
             <div class="team-name">김준홍</div>
             <div class="team-role">팀장</div>
+            <div class="team-mbti">PTIM</div>
             <div class="team-desc">기획 및 데이터분석</div>
           </div>
           <div class="team-card">
             <div class="team-avatar"><img src="html_asset/team/DA.png" alt="DA"></div>
             <div class="team-name">박성원</div>
             <div class="team-role">팀원</div>
+            <div class="team-mbti">PTIE</div>
             <div class="team-desc">데이터 분석</div>
           </div>
           <div class="team-card">
             <div class="team-avatar"><img src="html_asset/team/Design.png" alt="Design"></div>
             <div class="team-name">박하은</div>
             <div class="team-role">팀원</div>
+            <div class="team-mbti">RTIM</div>
             <div class="team-desc">기획 및 디자인</div>
           </div>
           <div class="team-card">
             <div class="team-avatar"><img src="html_asset/team/FE.png" alt="FE"></div>
             <div class="team-name">송상준</div>
             <div class="team-role">팀원</div>
+            <div class="team-mbti">RTIE</div>
             <div class="team-desc">프론트엔드</div>
           </div>
           <div class="team-card">
             <div class="team-avatar"><img src="html_asset/team/BE.png" alt="BE"></div>
             <div class="team-name">이도한</div>
             <div class="team-role">팀원</div>
+            <div class="team-mbti">RFCM</div>
             <div class="team-desc">백엔드</div>
           </div>
         </div>
@@ -1547,7 +1559,7 @@
     let autoIdx = 0;
     let autoTimer = null;
     let idleTimer = null;
-    const AUTO_INTERVAL = 3500;
+    const AUTO_INTERVAL = 6000;
     const IDLE_DELAY = 10000;
 
     function autoNext() {
